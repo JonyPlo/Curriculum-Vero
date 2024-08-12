@@ -50,18 +50,6 @@ const Education = () => {
           </div>
         </div>
       </Fade>
-      <Fade bottom>
-        <div className='row content-sections'>
-          <div className='col s12 m4 xl3 center-align bg-years'>
-            <h6>1994 - 2001</h6>
-          </div>
-          <div className='col s12 m8 xl9 content-border-left'>
-            <div className='circles'></div>
-            <h6>Primario</h6>
-            <p>Institución formadora: Dr. Raúl Colombres</p>
-          </div>
-        </div>
-      </Fade>
     </section>
   )
 }

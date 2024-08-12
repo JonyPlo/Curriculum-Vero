@@ -7,7 +7,7 @@
   font-size: 1.2em;
 }
 
-nav{
+nav {
   box-shadow: 0 0 15px -10px #352f36;
 }
 
@@ -15,37 +15,35 @@ header nav {
   background-color: #ffe6e1;
 }
 
-nav i{
+nav i {
   color: #352f36;
 }
 
-nav a{
-  color: #352f36!important;
+nav a {
+  color: #352f36 !important;
 }
 
 .light-mode {
-  background-color: #FFFFF0;
+  background-color: #fffff0;
   color: #352f36;
   transition: all 0.2s ease-in-out;
 }
 
 .dark-mode .bg-years h6 {
-  color: #352f36!important;
+  color: #352f36 !important;
 }
 
 .dark-mode {
   background-color: #352f36;
-  color: #FFFFF0;
+  color: #fffff0;
   transition: all 0.2s ease-in-out;
 }
 
-.dark-mode .circles{
+.dark-mode .circles {
   background-color: #ffe6e1;
 }
 
-
-
-.dark-mode .sections hr{
+.dark-mode .sections hr {
   height: 0.15em;
   background-color: #b4b5ba;
   border-left: 2em solid #ffe6e1;
@@ -67,7 +65,7 @@ button:focus {
 
 .bg-dark {
   background-color: #212529;
-  color: #FFFFF0 !important;
+  color: #fffff0 !important;
 }
 
 .dropdown-content li:hover,
@@ -80,7 +78,7 @@ button:focus {
 }
 
 .sidenav-dark li a {
-  color: #FFFFF0;
+  color: #fffff0;
 }
 
 .sidenav-dark li > a:hover {
@@ -93,16 +91,28 @@ button:focus {
 
 /* Medium devices (tablets, between 600px and 767px) */
 @media only screen and (min-width: 600px) and (max-width: 767px) {
+  .dark-mode .bg-years h6 {
+    color: #fffff0 !important;
+  }
 }
 
 /* Large devices (desktops, between 768px and 991px) */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .dark-mode .bg-years h6 {
+    color: #fffff0 !important;
+  }
 }
 
 /* Extra large devices (large desktops, between 992px and 1599px) */
 @media only screen and (min-width: 992px) and (max-width: 1599px) {
+  .dark-mode .bg-years h6 {
+    color: #fffff0 !important;
+  }
 }
 
 /* Extra extra large devices (extra large desktops, 1600px and up) */
 @media only screen and (min-width: 1600px) {
+  .dark-mode .bg-years h6 {
+    color: #fffff0 !important;
+  }
 }

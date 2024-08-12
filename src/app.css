@@ -1,0 +1,132 @@
+.column-aside {
+  padding: 0 !important;
+  box-shadow: 0 0 20px -8px #352f36;
+  background-color: #b4b5ba;
+  border-radius: 0 0 8px 8px;
+}
+
+.sections {
+  padding: 0em 1em !important;
+}
+
+.sections hr {
+  height: 0.15em;
+  background-color: #b4b5ba;
+  border-left: 2em solid #352f36;
+  border-bottom: 0;
+  border-right: 0;
+  border-top: 0;
+}
+
+.sections h5 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.sections-icons {
+  display: flex !important;
+  background-color: #b4b5ba;
+  border-radius: 50%;
+  color: #fffff0;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+}
+
+.align-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.box-position {
+  position: relative;
+  padding: 0px 20px;
+  bottom: 90px;
+}
+
+.job {
+  font-weight: lighter;
+}
+
+/* Small devices (phones, between 320px and 599px) */
+@media only screen and (min-width: 320px) and (max-width: 599px) {
+  p {
+    font-size: 14.5px;
+  }
+
+  .table-of-contents {
+    display: none;
+  }
+}
+
+/* Medium devices (tablets, between 600px and 767px) */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  .sections-icons {
+    width: 40px;
+    height: 40px;
+  }
+
+  .container {
+    width: 90%;
+  }
+
+  .box-position {
+    position: relative;
+    padding: 0;
+    bottom: 5px;
+  }
+
+  .sections h5 {
+    font-size: 1.5rem;
+  }
+
+  .table-of-contents {
+    position: fixed;
+    right: 2em;
+    top: 31em;
+  }
+
+  .table-of-contents {
+    display: none;
+  }
+}
+
+/* Large devices (desktops, between 768px and 991px) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .sections h5 {
+    font-size: 1.6rem;
+  }
+
+  .table-of-contents {
+    display: none;
+  }
+}
+
+/* Extra large devices (large desktops, between 992px and 1599px) */
+@media only screen and (min-width: 992px) and (max-width: 1599px) {
+  .sections h5 {
+    font-size: 1.7rem;
+  }
+
+  .table-of-contents {
+    position: fixed;
+    right: 4em;
+    top: 6em;
+  }
+}
+
+/* Extra extra large devices (extra large desktops, 1600px and up) */
+@media only screen and (min-width: 1600px) {
+  p {
+    font-size: 1.2em;
+  }
+
+  .table-of-contents {
+    position: fixed;
+    right: 6em;
+    top: 6em;
+    font-size: 1.2em;
+  }
+}

@@ -7,6 +7,7 @@ import Contact from './Components/Aside/Contact/Contact'
 import Experience from './Components/Body/Experience/Experience'
 import Education from './Components/Body/Education/Education'
 import { useState, useEffect } from 'react'
+import Office from './Components/Body/Office/Office'
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(true)
@@ -44,6 +45,7 @@ function App() {
           <div className='col s12 m7 l7 xl8 sections'>
             <Experience />
             <Education />
+            <Office />
           </div>
           <div className='col s12 sections'></div>
         </div>
